@@ -41,7 +41,8 @@ public class TenorLexer{
 
     private static final String[] RESERVED_WORDS = {
         "entity", "link", "def", "let", "if", "else", "return", 
-        "policy", "manifest", "source", "trace"
+        "policy", "manifest", "source", "trace", "raise", "break", "continue", "pass",
+        "with", "yield", "lambda", "import", "del", "assert", "link", "validate", "outgoing_links", "incoming_links", "let"
     };
 
     private static final String[] DATA_TYPES = {
